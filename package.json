@@ -1,0 +1,21 @@
+{
+  "name": "homework_6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "chrome": "cypress run --browser chrome",
+    "firefox": "cypress run --browser firefox",
+    "edge": "cypress run --browser edge",
+    "electron": "cypress run --browser electron",
+    "chrome:h": "cypress run --headed --browser chrome",
+    "firefox:h": "cypress run --headed --browser firefox",
+    "edge:h": "cypress run --headed --browser edge",
+    "electron:h": "cypress run --headed --browser electron"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.1"
+  }
+}
